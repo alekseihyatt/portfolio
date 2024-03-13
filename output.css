@@ -4,11 +4,11 @@
   --primary: hsl(177, 55%, 62%);
   --secondary: hsl(234, 61%, 70%);
   --accent: hsl(221, 59%, 51%);
-  --first: hsl(176, 24%, 53%);
+  --first: hsl(176, 23%, 36%);
   --about: hsl(314, 27%, 15%);
   --skills: hsl(180, 10%, 16%);
   --projects: hsl(211, 38%, 15%);
-  --contact: hsl(82, 25%, 72%);
+  --contact: hsl(82, 11%, 39%);
   --font-header: "Nunito", sans-serif;
   --font-text: "PT Sans", sans-serif;
 }
