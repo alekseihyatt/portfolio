@@ -131,7 +131,7 @@ header {
 
 .introduction {
     @include theme($theme: var(--first));
-    min-height: 80dvh;
+    min-height: 70dvh;
     position: relative;
     display: flex;
     flex-direction: column;

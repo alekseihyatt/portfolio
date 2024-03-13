@@ -133,7 +133,7 @@ header {
   background-color: var(--first);
   border-radius: 12px;
   color: var(--text);
-  min-height: 80dvh;
+  min-height: 70dvh;
   position: relative;
   display: flex;
   flex-direction: column;
