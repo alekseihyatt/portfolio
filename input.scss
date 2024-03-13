@@ -427,8 +427,7 @@ header {
     }
     .websites-card-wrapper {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
         padding: 1rem 0;
         gap: 1rem;
     }
