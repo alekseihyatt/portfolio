@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleksei Arsentev</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Aleksei Arsentev</h1>
+            <a href="Aleksei_Arsentev_Resume.pdf" download="filename.pdf">Download CV</a>
+        </div>
+    </header>
+    <nav class="sidenav">
+        <button id="scrollButton1" class="card card-introduction">
+            <span class="navnumber">01</span>
+            <span class="navtext">Introduction</span>
+        </button>
+        <button id="scrollButton2" class="card card-about">
+            <span class="navnumber">02</span>
+            <span class="navtext">About me</span>
+        </button>
+        <button id="scrollButton3" class="card card-skills">
+            <span class="navnumber">03</span>
+            <span class="navtext">Skills</span>
+        </button>
+        <button id="scrollButton4" class="card card-projects">
+            <span class="navnumber">04</span>
+            <span class="navtext">Projects</span>
+        </button>
+        <button id="scrollButton5" class="card card-contact">
+            <span class="navnumber">05</span>
+            <span class="navtext">Contact me</span>
+        </button>
+    </nav>
+    <main class="content">
+        
+        <section id="targetSection1" class="introduction">
+            <img src="images/120A1AE5-50A5-43F6-B0B5-4ECB7A0301D8_1_105_c.jpeg" alt="avatar">
+            <div class="text-wrapper">
+                <h1>Hello!</h1>
+                <p>I am a passionate front-end developer in search for opportunities to learn <br> something new!</p>
+            </div>
+        </section>
+        <section id="targetSection2" class="about">
+            <div class="about-wrapper">
+                <h1>My name is Aleksei, I am a 24-year-old human born in Russia</h1>
+                <p>Before I started my front-end journey, I specialized in designing logos and retouching photographs using Photoshop. In 2022, I started learing Figma and designing layouts for webpages, from which I seamlessly transitioned into the world of front-end development</p>
+            </div>
+            <div class="about-arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#000000" viewBox="0 0 256 256"><path d="M205.66,149.66l-72,72a8,8,0,0,1-11.32,0l-72-72a8,8,0,0,1,11.32-11.32L120,196.69V40a8,8,0,0,1,16,0V196.69l58.34-58.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+                <p>Technologies that I use</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#000000" viewBox="0 0 256 256"><path d="M205.66,149.66l-72,72a8,8,0,0,1-11.32,0l-72-72a8,8,0,0,1,11.32-11.32L120,196.69V40a8,8,0,0,1,16,0V196.69l58.34-58.35a8,8,0,0,1,11.32,11.32Z"></path></svg>
+            </div>
+        </section>
+        <section id="targetSection3" class="skills">
+            <div class="grid">
+                <div class="grid-item item1"><span class="text">Html</span></div>
+                <div class="grid-item item2"></div>
+                <div class="grid-item item3"></div>
+                <div class="grid-item item4"><span class="text">Css</span></div>
+                <div class="grid-item item5"><span class="text">Sass</span></div>
+                <div class="grid-item item6"><span class="text">Bootstrap</span></div>
+                <div class="grid-item item7"><span class="text">Javascript</span></div>
+                <div class="grid-item item8"><span class="text">jQuery</span></div>
+                <div class="grid-item item9"></div>
+                <div class="grid-item item10"><span class="text">PHP</span></div>
+                <div class="grid-item item11"><span class="text">WordPress</span></div>
+                <div class="grid-item item12"><span class="text">MySQL</span></div>
+            </div>
+        </section>
+        <section id="targetSection4" class="projects">
+            <h1>Here is a compilation of features showcasing my latest work</h1>
+            <div class="card-wrapper">
+                <p>Platforms where you can find projects I worked on:</p>
+                <div class="websites-card-wrapper">
+                    <a href="https://icodethis.com/AlekseiArsentev" target="_blank"><img src="images/icodethis.png" alt="iCodeThis"></a>
+                    <a href="https://www.frontendmentor.io/profile/alekseiarsentev" target="_blank"><img src="images/frontendmentor.png" alt="Frontend mentor"></a>
+                </div>
+            </div>
+        </section>
+        <section id="targetSection5" class="contact">
+            <h1>Contact me!</h1>
+            <a href="mailto:aleksei.ar999@gmail.com">aleksei.ar999@gmail.com</a>
+            <div class="socials_wrapper">
+                <a href="https://github.com/alekseihyatt" target="_blank"><img src="images/github.png" alt="github"></a>
+                <a href="https://twitter.com/aleksei_hyatt" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="https://discordapp.com/users/1061378725909909554" target="_blank"><img src="images/discord.png" alt="discord"></a>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

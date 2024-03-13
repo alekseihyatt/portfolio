@@ -1,0 +1,67 @@
+:root {
+    --text: hsl(167, 60%, 3%);
+    --background: hsl(157, 67%, 98%);
+    --primary: hsl(164, 61%, 51%);
+    --secondary: hsl(234, 61%, 70%);
+    --accent: hsl(252, 61%, 62%);
+
+    --font-header: "Nunito", sans-serif;
+    --font-text: "PT Sans", sans-serif;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-text);
+}
+
+.sidenav {
+    height: 100dvh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.card {
+    border: 1px solid var(--primary);
+    padding: 1rem;
+    margin: 0 1rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-family: var(--font-header);
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: var(--primary);
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover {
+    color: black;
+    background-color: var(--background);
+}
+
+.content {
+    margin-left: 200px;
+    padding: 1rem;
+    background-color: var(--background);
+}
+
+.introduction {
+    border: 1px solid var(--primary);
+}
