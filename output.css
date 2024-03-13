@@ -158,7 +158,7 @@ header {
   margin-bottom: 1rem;
 }
 .introduction p {
-  font-size: clamp(1rem, 0.3043rem + 3.4783vi, 3rem);
+  font-size: 1.5rem;
 }
 
 .about {
