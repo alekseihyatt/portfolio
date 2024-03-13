@@ -474,15 +474,6 @@ header {
   width: 55px;
 }
 
-.hidden {
-  opacity: 0;
-  transition: all 1s;
-}
-
-.show {
-  opacity: 1;
-}
-
 @media screen and (min-width: 652px) {
   .content {
     margin-left: 200px;
