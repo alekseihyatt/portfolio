@@ -131,7 +131,6 @@ header {
 
 .introduction {
     @include theme($theme: var(--first));
-    min-height: 70dvh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -446,11 +445,11 @@ header {
     background-color: var(--contact);
     border-radius: 12px 12px 0 0 ;
     color: var(--text);
-    min-height: 50dvh;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
     h1 {
         font-size: clamp(3rem, 1.9565rem + 5.2174vi, 6rem);
         transition: font-size 0.7s ease;

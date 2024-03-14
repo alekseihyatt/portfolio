@@ -133,7 +133,6 @@ header {
   background-color: var(--first);
   border-radius: 12px;
   color: var(--text);
-  min-height: 70dvh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -449,7 +448,6 @@ header {
   background-color: var(--contact);
   border-radius: 12px 12px 0 0;
   color: var(--text);
-  min-height: 50dvh;
   padding: 2rem;
   display: flex;
   flex-direction: column;
