@@ -142,8 +142,8 @@ header {
 }
 .introduction img {
   position: absolute;
-  top: 30px;
-  right: 30px;
+  top: 50px;
+  right: 50px;
   border-radius: 50%;
   aspect-ratio: 1/1;
   width: 25vw;
