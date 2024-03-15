@@ -461,7 +461,7 @@ header {
 }
 .contact a {
   text-decoration: none;
-  color: white;
+  color: var(--text);
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
