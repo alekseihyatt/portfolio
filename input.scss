@@ -1,15 +1,15 @@
 :root {
-    --text: hsl(104, 73%, 94%);
-    --background: hsl(197, 78%, 7%);
+    --text: hsl(300, 8%, 3%);
+    --background: hsl(240, 14%, 99%);
     --primary: hsl(177, 55%, 62%);
     --secondary: hsl(234, 61%, 70%);
     --accent: hsl(221, 59%, 51%);
 
-    --first: hsl(181, 23%, 36%);
-    --about: hsl(314, 27%, 15%);
-    --skills: hsl(180, 10%, 16%);
-    --projects: hsl(211, 38%, 15%);
-    --contact: hsl(251, 10%, 31%);
+    --first: hsl(240, 14%, 75%);
+    --about: hsl(68, 25%, 83%);
+    --skills: hsl(68, 25%, 83%);
+    --projects: hsl(211, 66%, 64%);
+    --contact: hsl(192, 22%, 70%);
 
 
     --font-header: "Nunito", sans-serif;
@@ -105,7 +105,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
+    background-color: hsl(221, 31%, 67%);
     h1 {
         margin-left: 0.8rem;
         color: var(--text);
@@ -114,10 +114,10 @@ header {
         font-size: clamp(1rem, 0.8261rem + 0.8696vi, 1.5rem);
     }
     a {
-        border: 3px solid var(--about);
-        background-color: var(--about);
+        border: 1px solid #DEDCDB;
+        background-color: hsl(47, 18%, 90%);
         font-size: 1rem;
-        color: white;
+        color: black;
         border-radius: 8px;
         padding: 0.3rem 0.5rem;
         text-decoration: none;
@@ -131,6 +131,7 @@ header {
 
 .introduction {
     @include theme($theme: var(--first));
+    min-height: 70dvh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -165,7 +166,7 @@ header {
     @include theme($theme: var(--about));
     min-height: 80dvh;
     .about-wrapper {
-        background-color:  hsl(287, 16%, 50%);
+        background-color:  hsl(276, 15%, 65%);
         border-radius: 12px;
         min-height: 70dvh;
         display: flex;
@@ -192,7 +193,7 @@ header {
         }
     }
     svg {
-        fill: white;
+        fill: black;
     }
 }
 
@@ -214,7 +215,7 @@ header {
         align-items: end;
         padding: 1rem;
         border-radius: 12px;
-        background-color: hsl(158, 17%, 74%);
+        background-color: hsl(203, 22%, 65%);
         position: relative; /* Needed for absolute positioning of span */
         overflow: hidden; 
     }
@@ -228,7 +229,7 @@ header {
         color: white;
         font-weight: 700;
         border-radius: 5px;
-        background-color: hsl(158, 17%, 74%);
+        background-color: hsl(204, 22%, 25%);
         padding: 5px 15px;
       }
       
@@ -462,7 +463,7 @@ header {
         margin-bottom: 2rem;
     }
     .socials_wrapper {
-        border-top: 5px solid var(--skills);
+        border-top: 5px solid black;
         
     }
     img {
@@ -502,6 +503,11 @@ header {
     .projects {
         h1 {
             width: 85%;
+        }
+    }
+    .introduction {
+        p {
+            width: 80%;
         }
     }
  }
