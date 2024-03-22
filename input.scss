@@ -1,6 +1,6 @@
 :root {
     --text: hsl(300, 8%, 3%);
-    --background: hsl(240, 14%, 99%);
+    --background: #073438;
     --primary: hsl(177, 55%, 62%);
     --secondary: hsl(234, 61%, 70%);
     --accent: hsl(221, 59%, 51%);
@@ -11,6 +11,11 @@
     --projects: hsl(211, 66%, 64%);
     --contact: hsl(192, 22%, 70%);
 
+  --clr-1: #052b2f;
+  --clr-2: #073438;
+  --clr-3: #0e4b50;
+  --clr-4: #2d8f85;
+  --clr-5: #637c54;
 
     --font-header: "Nunito", sans-serif;
     --font-text: "PT Sans", sans-serif;
@@ -48,15 +53,18 @@ body {
     font-family: var(--font-header);
     font-size: 1rem;
     font-weight: 700;
-    transition: all 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
     border: none;
 }
-
+/*
 .card:hover {
     background-color: var(--background);
     cursor: pointer;
+    outline: 5px solid gray;
+    outline-offset: -5px;
+    
 }
-
+*/
 .card-introduction {
     @include theme($theme: var(--first))
 }
@@ -130,6 +138,7 @@ header {
 }
 
 .introduction {
+    width: min(1000px, 100%);
     @include theme($theme: var(--first));
     min-height: 70dvh;
     position: relative;
@@ -162,6 +171,7 @@ header {
 }
 
 .about {
+    width: min(1000px, 100%);
     @include theme($theme: var(--about));
     min-height: 80dvh;
     .about-wrapper {
@@ -197,6 +207,7 @@ header {
 }
 
 .skills {
+    width: min(1000px, 100%);
     @include theme($theme: var(--skills));
     display: flex;
     flex-direction: column;
@@ -412,6 +423,7 @@ header {
 }
 
 .projects {
+    width: min(1000px, 100%);
     @include theme($theme: var(--projects));
     min-height: 80dvh;
     padding: 2rem;
@@ -443,6 +455,7 @@ header {
 }
 
 .contact {
+    width: min(1000px, 100%);
     background-color: var(--contact);
     border-radius: 12px 12px 0 0 ;
     color: var(--text);
@@ -473,7 +486,7 @@ header {
 }
 
 
-@media screen and (min-width: 652px) {
+@media screen and (min-width: 782px) {
     .content {
         margin-left: 200px;
     }
