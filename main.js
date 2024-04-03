@@ -21,13 +21,11 @@ document.getElementById('scrollButton5').addEventListener('click', function() {
 function scrollIntoMiddle(elementId) {
     var target = document.getElementById(elementId);
     var targetRect = target.getBoundingClientRect();
-    var offset = targetRect.top + window.scrollY + (targetRect.height / 2) - (window.innerHeight / 2);
-    window.scrollTo({
+    var content = document.querySelector('.content');
+    var contentRect = content.getBoundingClientRect();
+    var offset = targetRect.top - contentRect.top + content.scrollTop + (targetRect.height / 2) - (contentRect.height / 2);
+    content.scrollTo({
         top: offset,
         behavior: 'smooth'
     });
 }
-
-
-
-
