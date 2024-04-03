@@ -189,11 +189,11 @@ header {
 .about {
     
     @include theme($theme: var(--about));
-    min-height: 80dvh;
+   
     .about-wrapper {
         background-color:  hsl(276, 15%, 65%);
         border-radius: 12px;
-        min-height: 70dvh;
+        
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
