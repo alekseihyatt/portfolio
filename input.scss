@@ -1,6 +1,6 @@
 :root {
     --text: hsl(300, 8%, 3%);
-    --background: #073438;
+    --background: #000000;
     --primary: hsl(177, 55%, 62%);
     --secondary: hsl(234, 61%, 70%);
     --accent: hsl(221, 59%, 51%);
@@ -30,9 +30,9 @@
 }
 
 body::before {
-    --size: 120px;
+    --size: 30px;
     --line: hsl(0 0% 100% / 0.13);
-    --thickness: 2px;
+    --thickness: 1px;
     --offset: 60px;
     content: "";
     z-index: -1;
