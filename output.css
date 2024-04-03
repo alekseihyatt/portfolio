@@ -129,7 +129,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: hsl(221, 31%, 67%);
+  background-color: var(--background);
 }
 .header h1 {
   margin-left: 0.8rem;
@@ -220,7 +220,7 @@ header {
   font-weight: 400;
 }
 .about svg {
-  fill: black;
+  fill: white;
 }
 
 .skills {
@@ -499,6 +499,9 @@ header {
   margin-top: 1rem;
   margin-right: 1rem;
   width: 55px;
+  background-color: white;
+  border-radius: 20%;
+  padding: 2px;
 }
 
 @media screen and (min-width: 782px) {
