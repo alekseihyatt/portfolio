@@ -190,7 +190,7 @@ header {
   color: var(--text);
 }
 .about .about-wrapper {
-  background-color: hsl(276, 15%, 65%);
+  background-color: hsl(197, 5%, 28%);
   border-radius: 12px;
   display: flex;
   flex-direction: column;
