@@ -17,6 +17,8 @@
     padding: 0;
 }
 
+sass --watch input.scss output.css
+
 body {
     font-family: var(--font-text);
 }

@@ -26,9 +26,22 @@
   padding: 0;
 }
 
+body::before {
+  --size: 120px;
+  --line: hsl(0 0% 100% / 0.13);
+  --thickness: 2px;
+  --offset: 60px;
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset)/var(--size) var(--size), linear-gradient(90deg, transparent 0 calc(var(--size) - var(--thickness)), var(--line) calc(var(--size) - var(--thickness)) var(--size)) var(--offset) var(--offset)/var(--size) var(--size);
+}
+
 body {
   font-family: var(--font-text);
   background-color: var(--background);
+  overflow: hidden;
 }
 
 .sidenav {
@@ -91,10 +104,11 @@ body {
   padding-top: 5rem;
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  background-color: var(--background);
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  overflow: scroll;
+  height: 100vh;
 }
 
 header {
@@ -497,7 +511,6 @@ header {
     position: fixed;
     top: 4rem;
     left: 0;
-    background-color: var(--background);
     display: flex;
     flex-direction: column;
     gap: 1rem;
