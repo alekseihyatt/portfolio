@@ -222,6 +222,7 @@ header {
 }
 
 .skills {
+  min-height: 60dvh;
   background-color: var(--skills);
   border-radius: 12px;
   color: var(--text);

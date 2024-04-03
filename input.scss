@@ -223,7 +223,7 @@ header {
 }
 
 .skills {
-    
+    min-height: 60dvh;
     @include theme($theme: var(--skills));
     display: flex;
     flex-direction: column;
