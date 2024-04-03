@@ -153,7 +153,6 @@ header {
 }
 
 .introduction {
-  width: min(1000px, 100%);
   background-color: var(--first);
   border-radius: 12px;
   color: var(--text);
@@ -186,7 +185,6 @@ header {
 }
 
 .about {
-  width: min(1000px, 100%);
   background-color: var(--about);
   border-radius: 12px;
   color: var(--text);
@@ -224,7 +222,6 @@ header {
 }
 
 .skills {
-  width: min(1000px, 100%);
   background-color: var(--skills);
   border-radius: 12px;
   color: var(--text);
@@ -439,7 +436,6 @@ header {
 }
 
 .projects {
-  width: min(1000px, 100%);
   background-color: var(--projects);
   border-radius: 12px;
   color: var(--text);
@@ -473,7 +469,6 @@ header {
 }
 
 .contact {
-  width: min(1000px, 100%);
   background-color: var(--contact);
   border-radius: 12px 12px 0 0;
   color: var(--text);
