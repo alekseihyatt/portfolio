@@ -45,7 +45,7 @@ document.getElementById("cards").onmousemove = e => {
         for (let div of divs) {
             let shadow = '';
             for (let i = 0; i < 15; i++) {
-                shadow += (shadow ? ',' : '') + i * 1 + 'px ' + i * 1 + 'px 0 rgba(248, 251, 250, 0.1)';
+                shadow += (shadow ? ',' : '') + i * 1 + 'px ' + i * 1 + 'px 0 rgba(248, 251, 250, 0.05)';
             }
             div.style.boxShadow = shadow;
         }
