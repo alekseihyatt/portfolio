@@ -242,6 +242,8 @@ header {
         h1 {
             font-size: clamp(2rem, 1.3043rem + 3.4783vi, 4rem);
             margin-bottom: 2rem;
+            width: 100%;
+            max-width: 900px;
         }
         p {
             font-size: 1.5rem;
