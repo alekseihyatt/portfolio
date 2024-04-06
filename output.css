@@ -134,7 +134,7 @@ body {
   padding-left: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2.5rem;
   overflow: scroll;
   overflow-x: hidden;
   height: 100dvh;
@@ -264,6 +264,8 @@ header {
   justify-content: space-between;
 }
 .skills .grid {
+  padding-right: 10px;
+  padding-bottom: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -503,8 +505,9 @@ header {
 }
 
 .contact {
+  margin-bottom: 40px;
   background-color: var(--contact);
-  border-radius: 12px 12px 0 0;
+  border-radius: 12px;
   color: var(--text);
   padding: 2rem;
   display: flex;
@@ -536,6 +539,8 @@ header {
 @media screen and (min-width: 782px) {
   .content {
     margin-left: 200px;
+    padding-right: 4.5rem;
+    padding-left: 3.5rem;
   }
   .sidenav {
     min-height: 100dvh;
