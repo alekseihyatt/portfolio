@@ -264,8 +264,6 @@ header {
   justify-content: space-between;
 }
 .skills .grid {
-  padding-right: 10px;
-  padding-bottom: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -569,6 +567,10 @@ header {
   }
   .introduction img {
     width: 25vw;
+  }
+  .skills .grid {
+    padding: 2rem;
+    padding-inline: 4rem;
   }
 }
 

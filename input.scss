@@ -278,8 +278,6 @@ header {
     flex-direction: column;
     justify-content: space-between;
     .grid {
-        padding-right: 10px;
-        padding-bottom: 10px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -597,4 +595,13 @@ header {
             width: 25vw;
         }
     }
+
+    .skills {
+        
+        .grid {
+            padding: 2rem;
+            padding-inline: 4rem;
+            
+        }
  }
+}
