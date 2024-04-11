@@ -194,6 +194,8 @@ header {
     
 }
 
+
+
 .introduction {
     
     @include theme($theme: var(--first));
@@ -552,6 +554,18 @@ header {
         border-radius: 20%;
         padding: 2px;
     }
+}
+
+@function shadow($color:black,$repeats:10) {
+    $value:();
+    @for $i from 1 through $repeats {
+      $value:append($value, #{$i}px #{$i}px #{$color}, comma);
+    }
+    @return $value;
+  }
+
+.myDiv {
+    box-shadow:shadow(hsl(0, 0%, 72%), 15);
 }
 
 

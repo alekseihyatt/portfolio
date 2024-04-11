@@ -534,6 +534,10 @@ header {
   padding: 2px;
 }
 
+.myDiv {
+  box-shadow: 1px 1px hsl(0, 0%, 72%), 2px 2px hsl(0, 0%, 72%), 3px 3px hsl(0, 0%, 72%), 4px 4px hsl(0, 0%, 72%), 5px 5px hsl(0, 0%, 72%), 6px 6px hsl(0, 0%, 72%), 7px 7px hsl(0, 0%, 72%), 8px 8px hsl(0, 0%, 72%), 9px 9px hsl(0, 0%, 72%), 10px 10px hsl(0, 0%, 72%), 11px 11px hsl(0, 0%, 72%), 12px 12px hsl(0, 0%, 72%), 13px 13px hsl(0, 0%, 72%), 14px 14px hsl(0, 0%, 72%), 15px 15px hsl(0, 0%, 72%);
+}
+
 @media screen and (min-width: 782px) {
   .content {
     margin-left: 200px;
