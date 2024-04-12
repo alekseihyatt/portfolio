@@ -150,6 +150,7 @@ body {
     overflow: scroll;
     overflow-x: hidden;
     height: 100dvh;
+    
 }
 
 header {
@@ -179,17 +180,18 @@ header {
         font-size: clamp(1rem, 0.8261rem + 0.8696vi, 1.5rem);
     }
     a {
-        border: 1px solid #DEDCDB;
-        background-color: hsl(47, 18%, 90%);
+        border: none;
+        background-color: hsl(60, 2%, 17%);
         font-size: 1rem;
         color: black;
         border-radius: 8px;
         padding: 0.3rem 0.5rem;
         text-decoration: none;
         text-wrap: nowrap;
+        color: white;
     }
     a:hover {
-        text-decoration: underline; /* Underline on hover */
+        background-color: hsl(17, 74%, 53%);
     }
     
 }
@@ -234,9 +236,7 @@ header {
     @include theme($theme: var(--about));
    
     .about-wrapper {
-        background-color:  hsl(197, 5%, 28%);
         border-radius: 12px;
-        
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -274,17 +274,29 @@ header {
 }
 
 .skills {
-    min-height: 60dvh;
+    min-height: 80dvh;
     @include theme($theme: var(--skills));
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    .about-arrow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 10dvh;
+        padding-inline: 2rem;
+        p {
+            font-size: clamp(1rem, 0.4783rem + 2.6087vi, 2.5rem);
+            font-weight: 400;
+        }
+    }
+    svg {
+        fill: white;
+    }
+
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         gap: 5px;
-        min-height: 60dvh;
+        height: 80%;
     }
     .grid-item {
         display: flex;
@@ -614,8 +626,6 @@ header {
         
         .grid {
             padding: 2rem;
-            padding-inline: 4rem;
-            
         }
  }
 }

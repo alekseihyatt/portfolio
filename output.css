@@ -168,17 +168,18 @@ header {
   font-size: clamp(1rem, 0.8261rem + 0.8696vi, 1.5rem);
 }
 .header a {
-  border: 1px solid #DEDCDB;
-  background-color: hsl(47, 18%, 90%);
+  border: none;
+  background-color: hsl(60, 2%, 17%);
   font-size: 1rem;
   color: black;
   border-radius: 8px;
   padding: 0.3rem 0.5rem;
   text-decoration: none;
   text-wrap: nowrap;
+  color: white;
 }
 .header a:hover {
-  text-decoration: underline; /* Underline on hover */
+  background-color: hsl(17, 74%, 53%);
 }
 
 .introduction {
@@ -220,7 +221,6 @@ header {
   color: var(--text);
 }
 .about .about-wrapper {
-  background-color: hsl(197, 5%, 28%);
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -256,20 +256,31 @@ header {
 }
 
 .skills {
-  min-height: 60dvh;
+  min-height: 80dvh;
   background-color: var(--skills);
   border-radius: 12px;
   color: var(--text);
+}
+.skills .about-arrow {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  min-height: 10dvh;
+  padding-inline: 2rem;
+}
+.skills .about-arrow p {
+  font-size: clamp(1rem, 0.4783rem + 2.6087vi, 2.5rem);
+  font-weight: 400;
+}
+.skills svg {
+  fill: white;
 }
 .skills .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 5px;
-  min-height: 60dvh;
+  height: 80%;
 }
 .skills .grid-item {
   display: flex;
@@ -575,7 +586,6 @@ header {
   }
   .skills .grid {
     padding: 2rem;
-    padding-inline: 4rem;
   }
 }
 
