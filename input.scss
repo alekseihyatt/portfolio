@@ -577,7 +577,8 @@ header {
   }
 
 .myDiv {
-    box-shadow:shadow(hsl(0, 0%, 72%), 15);
+    border: 5px solid hsl(0, 0%, 72%);
+    box-shadow:shadow(hsl(0, 0%, 72%), 10);
 }
 
 
